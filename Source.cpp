@@ -1,11 +1,12 @@
 #include "Graph.h"
 #include "Node.h"
 #include "Arc.h"
-
+#include <iostream>
 
 int main()
 {
 	Graph g;
+	cout << "hello world" << endl;
 
 	Node n0(0, g);
 	Node n1(1, g);
